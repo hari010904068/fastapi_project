@@ -1,7 +1,7 @@
 # Create `main.py` to start the app and initialize the database
 from fastapi import FastAPI
-from app.database import engine, Base
-from app.routers import users, courses, progress, quizzes
+from database import engine, Base
+from routers import users, courses, progress, quizzes
 
 app = FastAPI()
 
